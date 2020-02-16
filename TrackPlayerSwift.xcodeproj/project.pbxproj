@@ -11,7 +11,6 @@
 		A47710F223F95800000F3932 /* TrackPlayerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47710E823F95800000F3932 /* TrackPlayerSwift.framework */; platformFilter = ios; };
 		A47710F723F95800000F3932 /* TrackPlayerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47710F623F95800000F3932 /* TrackPlayerSwiftTests.swift */; };
 		A47710F923F95800000F3932 /* TrackPlayerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A47710EB23F95800000F3932 /* TrackPlayerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A477110323F95810000F3932 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477110223F95810000F3932 /* Test.swift */; };
 		A477110B23F95853000F3932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477110A23F95853000F3932 /* AppDelegate.swift */; };
 		A477110D23F95853000F3932 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477110C23F95853000F3932 /* SceneDelegate.swift */; };
 		A477110F23F95853000F3932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A477110E23F95853000F3932 /* ViewController.swift */; };
@@ -20,6 +19,8 @@
 		A477111723F95855000F3932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A477111523F95855000F3932 /* LaunchScreen.storyboard */; };
 		A477111E23F959BA000F3932 /* TrackPlayerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A47710E823F95800000F3932 /* TrackPlayerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A4A907FC23F95BEF00B538D9 /* Pods_TrackPlayerSwift_TrackPlayerSwiftTests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4A907F923F95B7300B538D9 /* Pods_TrackPlayerSwift_TrackPlayerSwiftTests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4A9086923F96D1900B538D9 /* GlobalBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9086823F96D1900B538D9 /* GlobalBridge.swift */; };
+		A4A9086B23F9703D00B538D9 /* GlobalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A9086A23F9703D00B538D9 /* GlobalBridge.m */; };
 		C9C68544749E9E33DD0F40B9 /* Pods_TrackPlayerSwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F61B19BC13DCE8D0A5248D /* Pods_TrackPlayerSwiftTest.framework */; };
 		E0643956292FAC3281EDF29A /* Pods_TrackPlayerSwift_TrackPlayerSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047A01BE9AF9B32F6B350BC8 /* Pods_TrackPlayerSwift_TrackPlayerSwiftTests.framework */; platformFilter = ios; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -80,7 +81,6 @@
 		A47710F123F95800000F3932 /* TrackPlayerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackPlayerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47710F623F95800000F3932 /* TrackPlayerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPlayerSwiftTests.swift; sourceTree = "<group>"; };
 		A47710F823F95800000F3932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A477110223F95810000F3932 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		A477110823F95853000F3932 /* TrackPlayerSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackPlayerSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A477110A23F95853000F3932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A477110C23F95853000F3932 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +90,8 @@
 		A477111623F95855000F3932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A477111823F95855000F3932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4A907F923F95B7300B538D9 /* Pods_TrackPlayerSwift_TrackPlayerSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_TrackPlayerSwift_TrackPlayerSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A9086823F96D1900B538D9 /* GlobalBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalBridge.swift; sourceTree = "<group>"; };
+		A4A9086A23F9703D00B538D9 /* GlobalBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalBridge.m; sourceTree = "<group>"; };
 		A4C709BAFE54DFC91FEEF95C /* Pods-TrackPlayerSwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackPlayerSwiftTest.debug.xcconfig"; path = "Target Support Files/Pods-TrackPlayerSwiftTest/Pods-TrackPlayerSwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D45A21AC1469F66B7F0AC5A8 /* Pods-TrackPlayerSwift-TrackPlayerSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackPlayerSwift-TrackPlayerSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-TrackPlayerSwift-TrackPlayerSwiftTests/Pods-TrackPlayerSwift-TrackPlayerSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				A47710E923F95800000F3932 /* Products */,
 				A477111C23F959BA000F3932 /* Frameworks */,
 				A5CE709810B0D83095DFE7D2 /* Pods */,
+				A4A9080023F95D6700B538D9 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,9 +151,13 @@
 		A47710EA23F95800000F3932 /* TrackPlayerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				A4A9086723F96D0A00B538D9 /* API */,
+				A4A9086623F96D0400B538D9 /* Model */,
+				A4A9086523F96CFA00B538D9 /* ViewModel */,
 				A47710EB23F95800000F3932 /* TrackPlayerSwift.h */,
 				A47710EC23F95800000F3932 /* Info.plist */,
-				A477110223F95810000F3932 /* Test.swift */,
+				A4A9086823F96D1900B538D9 /* GlobalBridge.swift */,
+				A4A9086A23F9703D00B538D9 /* GlobalBridge.m */,
 			);
 			path = TrackPlayerSwift;
 			sourceTree = "<group>";
@@ -186,6 +193,35 @@
 				56F61B19BC13DCE8D0A5248D /* Pods_TrackPlayerSwiftTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4A9080023F95D6700B538D9 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				A4A907F923F95B7300B538D9 /* Pods_TrackPlayerSwift_TrackPlayerSwiftTests.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		A4A9086523F96CFA00B538D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4A9086623F96D0400B538D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4A9086723F96D0A00B538D9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		A5CE709810B0D83095DFE7D2 /* Pods */ = {
@@ -453,7 +489,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A477110323F95810000F3932 /* Test.swift in Sources */,
+				A4A9086923F96D1900B538D9 /* GlobalBridge.swift in Sources */,
+				A4A9086B23F9703D00B538D9 /* GlobalBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,6 +769,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4C709BAFE54DFC91FEEF95C /* Pods-TrackPlayerSwiftTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39QDFGFLCK;
@@ -751,6 +789,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 960B28C8FD4C1AC5606E9BAB /* Pods-TrackPlayerSwiftTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39QDFGFLCK;
