@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+public class Test{
+    
+    public let name:String
+    
+    public init(name:String) {
+        self.name = name
+    }
+}

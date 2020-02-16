@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-TrackPlayerSwiftTest/Pods-TrackPlayerSwiftTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire-iOS13.2/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Realm-iOS13.2/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift-iOS13.2/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa-iOS13.2/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay-iOS13.2/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift-iOS13.2/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage-iOS13.2/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS13.2/SwiftyJSON.framework
